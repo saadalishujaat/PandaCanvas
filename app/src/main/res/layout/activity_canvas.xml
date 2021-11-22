@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <com.pandalibs.pandacanvaslib.CanvasPad
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/color_picker"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/color_picker"
+        />
+
+    <ImageView
+        android:id="@+id/strokeSetter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="@+id/color_picker"
+        app:layout_constraintEnd_toStartOf="@+id/color_picker"
+        app:layout_constraintTop_toTopOf="@+id/color_picker"
+        app:srcCompat="@drawable/pen" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:visibility="gone"
+        android:progress="3"
+        android:thumbTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/strokeSetter"
+        app:layout_constraintEnd_toStartOf="@+id/strokeSetter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/strokeSetter"
+        />
+
+    <ImageView
+        android:id="@+id/undo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toStartOf="@+id/redo"
+        app:layout_constraintTop_toTopOf="@+id/redo"
+        app:srcCompat="@drawable/undo_enabled" />
+
+    <ImageView
+        android:id="@+id/redo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/redo_enabled" />
+
+    <ImageView
+        android:id="@+id/eraser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/color_picker"
+        app:layout_constraintEnd_toEndOf="@+id/color_picker"
+        app:srcCompat="@drawable/eraserimg" />
+
+        <TextView
+            android:id="@+id/clearCanvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Clear Canvas"
+            android:layout_margin="8dp"
+            />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

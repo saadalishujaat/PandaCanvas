@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable-v24/undo.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/eraserimg.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/ic_sketch_eraser.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/ic_sketch_eraser_unselected.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/pen.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/redo.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/redo_disabled.xml" value="0.3769230769230769" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/redo_enabled.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/undo.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/undo_disabled.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/drawable/undo_enabled.xml" value="0.3302083333333333" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/layout/activity_canvas.xml" value="0.25" />
+        <entry key="..\:/Saad/PandaLibs/PandaCanvas/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

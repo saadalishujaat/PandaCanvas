@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PandaCanvas</string>
+    <string name="title_activity_canvas">CanvasActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="clear_canvas">Clear Canvas</string>
+</resources>
